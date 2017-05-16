@@ -1,4 +1,4 @@
-# logstash-output-loginsight
+# logstash-codec-loginsight
 
 This is a plugin for [Logstash](https://github.com/elastic/logstash), converting events received from [VMware vRealize Log Insight](https://www.vmware.com/support/pubs/log-insight-pubs.html) via [logstash-input-http](https://www.elastic.co/guide/en/logstash/current/plugins-inputs-http.html).
 
