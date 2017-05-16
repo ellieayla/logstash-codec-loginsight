@@ -1,13 +1,13 @@
 Gem::Specification.new do |s|
 
   s.name            = 'logstash-codec-loginsight'
-  s.version         = '0.1.48'
+  s.version         = '0.1.49'
   s.licenses        = ['Apache-2.0']
-  s.summary         = "This codec may be used to decode (via inputs) and encode (via outputs) full JSON messages"
-  s.description     = "This gem is a Logstash plugin required to be installed on top of the Logstash core pipeline using $LS_HOME/bin/logstash-plugin install gemname. This gem is not a stand-alone program"
+  s.summary         = "This codec may be used to decode (via HTTP input) Ingestion API events from a Log Insight server."
+  s.description     = "This gem is a Logstash plugin required to be installed on top of the Logstash core pipeline using $LS_HOME/bin/logstash-plugin install logstash-codec-loginsight. This gem is not a stand-alone program."
   s.authors         = ["Alan J Castonguay"]
-  s.email           = 'info@elastic.co'
-  s.homepage        = "http://www.elastic.co/guide/en/logstash/current/index.html"
+  s.email           = 'acastonguay@vmware.com'
+  s.homepage        = "https://github.com/alanjcastonguay/logstash-codec-loginsight"
   s.require_paths   = ["lib"]
 
   # Files
@@ -22,5 +22,5 @@ Gem::Specification.new do |s|
   # Gem dependencies
   s.add_runtime_dependency "logstash-core-plugin-api", ">= 1.60", "<= 2.99"
 
-  s.add_development_dependency 'logstash-devutils'
+  s.add_development_dependency "logstash-devutils"
 end
