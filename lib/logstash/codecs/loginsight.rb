@@ -30,7 +30,6 @@ class LogStash::Codecs::LogInsight < LogStash::Codecs::Base
   config :charset, :validate => ::Encoding.name_list, :default => "UTF-8"
 
   def register
-    @logger.info("Log Insight Codec Registered")
     @converter = LogStash::Util::Charset.new(@charset)
     @converter.logger = @logger
   end
