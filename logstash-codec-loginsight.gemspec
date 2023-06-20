@@ -1,13 +1,13 @@
 Gem::Specification.new do |s|
 
   s.name            = 'logstash-codec-loginsight'
-  s.version         = '0.1.49'
+  s.version         = '0.1.50'
   s.licenses        = ['Apache-2.0']
   s.summary         = "This codec may be used to decode (via HTTP input) Ingestion API events from a Log Insight server."
   s.description     = "This gem is a Logstash plugin required to be installed on top of the Logstash core pipeline using $LS_HOME/bin/logstash-plugin install logstash-codec-loginsight. This gem is not a stand-alone program."
-  s.authors         = ["Alan J Castonguay"]
-  s.email           = 'acastonguay@vmware.com'
-  s.homepage        = "https://github.com/alanjcastonguay/logstash-codec-loginsight"
+  s.authors         = ["Ellie Ayla"]
+  s.email           = 'support@verselogic.net'
+  s.homepage        = "https://github.com/ellieayla/logstash-codec-loginsight"
   s.require_paths   = ["lib"]
 
   # Files
